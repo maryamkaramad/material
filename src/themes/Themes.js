@@ -80,6 +80,13 @@ export const Themes = createTheme({
             fontweight: 600,
             lineheight: 27,
 
+        },
+        h6: {
+            fontsize: 12,
+            fontweight: 700,
+            lineheight: 18,
+
+
         }
     },
     shadows: {
