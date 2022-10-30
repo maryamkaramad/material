@@ -14,11 +14,6 @@ export const Themes = createTheme({
                     background: '#EEE',
                     fontFamily: 'Poppins',
                 },
-                '.a': {
-                    color: "#50C2C9",
-                    textDecrition: "none"
-                },
-
 
             }
         },
@@ -63,12 +58,10 @@ export const Themes = createTheme({
 
         },
         subtitle1: {
-            height: 81,
-            width: 249,
-            left: 3,
-            top: 35,
 
-
+            fontsize: 13,
+            fontweight: 400,
+            lineheight: 20,
         },
         subtitle2: {
             fontsize: 14,
@@ -78,6 +71,13 @@ export const Themes = createTheme({
             textalign: "left",
 
         },
+        button: {
+
+            fontsize: 18,
+            fontweight: 600,
+            lineheight: 27,
+
+        }
     },
     shadows: {
         1: "0px 4px 10px rgba(0, 0, 0, 0.25);"

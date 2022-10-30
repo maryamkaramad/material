@@ -10,13 +10,13 @@ import { RouterProvider } from "react-router-dom"
 import router from './routes/router';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <RouterProvider router={router} >
-    <ThemeProvider theme={Themes}>
-      <CssBaseline>
-        <App />
-      </CssBaseline>
-    </ThemeProvider>
-  </RouterProvider>
+
+  <ThemeProvider theme={Themes}>
+    <RouterProvider router={router} />
+    <CssBaseline>
+      <App />
+    </CssBaseline>
+  </ThemeProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function
