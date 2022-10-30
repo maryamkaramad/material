@@ -19,9 +19,9 @@ const Register = () => {
                         <TextField type={"password"} fullWidth label="Confirm password" id="fullWidth" margin="dense" sx={{ bgcolor: "white" }} />
                     </FormControl>
                 </Grid>
-                <Grid>
+                <Grid container justifyContent={"center"} gap={1}>
                     <Button item variant='mainButton' sx={{ width: "325px" }}> <Typography variant='button'>register</Typography> </Button>
-
+                    <Typography item variant="hsubtitle1" textAlign={"center"} >Already have an account ?<a href='/' >Sign in</a> </Typography>
                 </Grid>
             </Grid>
         </Grid>
