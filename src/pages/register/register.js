@@ -2,6 +2,7 @@ import React from 'react'
 import { Button, FormControl, Grid, Typography, TextField } from '@mui/material';
 import elipse from '../../assets/img/elipse.png'
 
+
 const Register = () => {
     return (
         <Grid container width={"100%"} gap={50}>
@@ -21,7 +22,7 @@ const Register = () => {
                 </Grid>
                 <Grid container justifyContent={"center"} gap={1}>
                     <Button item variant='mainButton' sx={{ width: "325px" }}> <Typography variant='button'>register</Typography> </Button>
-                    <Typography item variant="hsubtitle1" textAlign={"center"} >Already have an account ?<a href='/' >Sign in</a> </Typography>
+                    <Typography container item variant="hsubtitle1" textAlign={"center"} >Already have an account ?</Typography><a href='/'> <Grid color={"primary.main"} >Sign in</Grid></a>
                 </Grid>
             </Grid>
         </Grid>

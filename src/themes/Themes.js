@@ -14,6 +14,9 @@ export const Themes = createTheme({
                     background: '#EEE',
                     fontFamily: 'Poppins',
                 },
+                'a': {
+                    textDecoration: "none"
+                }
 
             }
         },
